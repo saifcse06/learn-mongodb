@@ -54,12 +54,12 @@
 
 ## Common Command
 
-`show dbs # <=> Print a list of all databases on the server.
-use <db> # <=> Switch current database to <db>
-show collections # <=> Print a list of all collections for current database.
-db.people.insert({name:"Ashwin",gender:"m"}) # <=> Inserts a new "person" collection with a new object in that collection
-db.people.find(<any attributes or none>) # <=> Find all persons in the collection
-db.people.update({name:"Ashwin"},{gender:"f"}) # <=> Updates the selected (1st parameter) person with new value(2nd parameter)
-db.people.remove({name:"Ashwin"}) # <=> Remove where name is "Ashwin"
-db.people.drop() # <=> Delete the "people" collection`
+`show dbs # <=> Print a list of all databases on the server.`
+`use <db> # <=> Switch current database to <db>`
+`show collections # <=> Print a list of all collections for current database.`
+`db.people.insert({name:"Ashwin",gender:"m"}) # <=> Inserts a new "person" collection with a new object in that collection`
+`db.people.find(<any attributes or none>) # <=> Find all persons in the collection`
+`db.people.update({name:"Ashwin"},{gender:"f"}) # <=> Updates the selected (1st parameter) person with new value(2nd parameter)`
+`db.people.remove({name:"Ashwin"}) # <=> Remove where name is "Ashwin"`
+`db.people.drop() # <=> Delete the "people" collection`
 
